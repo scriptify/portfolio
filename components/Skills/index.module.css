@@ -1,0 +1,11 @@
+.technology-tile {
+  filter: grayscale(1);
+  cursor: pointer;
+  transition: filter 0.24s;
+}
+
+.technology-tile:hover,
+.technology-tile:active,
+.technology-tile:focus {
+  filter: grayscale(0);
+}

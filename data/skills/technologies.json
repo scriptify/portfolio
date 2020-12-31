@@ -1,0 +1,180 @@
+[
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "icon": "/ts.png",
+    "category": "main_langs"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "icon": "/js.png",
+    "category": "main_langs"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "icon": "/react.png",
+    "category": "frontend"
+  },
+  {
+    "id": "next.js",
+    "name": "Next.js",
+    "icon": "/next.js.png",
+    "category": "frontend"
+  },
+  {
+    "id": "gatsby.js",
+    "name": "Gatsby.js",
+    "icon": "/gatsby.js.png",
+    "category": "frontend"
+  },
+  {
+    "id": "apollo_graphql",
+    "name": "Apollo GraphQL",
+    "icon": "/apollo_graphql.png",
+    "category": "frontend"
+  },
+  { "id": "mobx", "name": "MobX", "icon": "/mobx.png", "category": "frontend" },
+  {
+    "id": "mobx_state_tree",
+    "name": "MobX State Tree",
+    "icon": "/mobx_state_tree.png",
+    "category": "frontend"
+  },
+  {
+    "id": "redux",
+    "name": "Redux",
+    "icon": "/redux.png",
+    "category": "frontend"
+  },
+  {
+    "id": "cordova",
+    "name": "Cordova",
+    "icon": "/cordova.png",
+    "category": "frontend"
+  },
+  {
+    "id": "react_native",
+    "name": "React Native",
+    "icon": "/react_native.png",
+    "category": "frontend"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "icon": "/tailwind.png",
+    "category": "frontend"
+  },
+  {
+    "id": "styled_components",
+    "name": "Styled Components",
+    "icon": "/styled_components.png",
+    "category": "frontend"
+  },
+  {
+    "id": "web_audio_api",
+    "name": "Web Audio API",
+    "icon": "/web_audio_api.png",
+    "category": "frontend"
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "icon": "/electron.png",
+    "category": "frontend"
+  },
+
+  {
+    "id": "node.js",
+    "name": "Node.js",
+    "icon": "/node.js.png",
+    "category": "backend"
+  },
+  {
+    "id": "express.js",
+    "name": "Express.js",
+    "icon": "/express.js.png",
+    "category": "backend"
+  },
+  {
+    "id": "fastify",
+    "name": "Fastify",
+    "icon": "/fastify.jpg",
+    "category": "backend"
+  },
+  {
+    "id": "socket.io",
+    "name": "Socket.io",
+    "icon": "/socket.io.png",
+    "category": "backend"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "icon": "/graphql.png",
+    "category": "backend"
+  },
+  {
+    "id": "openapi",
+    "name": "OpenAPI",
+    "icon": "/openapi.png",
+    "category": "backend"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "icon": "/mongodb.png",
+    "category": "backend"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "icon": "/postgresql.png",
+    "category": "backend"
+  },
+  {
+    "id": "dynamodb",
+    "name": "DynamoDB",
+    "icon": "/dynamodb.png",
+    "category": "backend"
+  },
+  { "id": "aws", "name": "AWS", "icon": "/aws.png", "category": "backend" },
+  {
+    "id": "serverless_framework",
+    "name": "Serverless Framework",
+    "icon": "/serverless_framework.png",
+    "category": "backend"
+  },
+  {
+    "id": "strapi",
+    "name": "Strapi",
+    "icon": "/strapi.png",
+    "category": "backend"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "icon": "/stripe.png",
+    "category": "backend"
+  },
+  {
+    "id": "paddle",
+    "name": "Paddle",
+    "icon": "/paddle.png",
+    "category": "backend"
+  },
+
+  { "id": "java", "name": "Java", "icon": "/java.png", "category": "other" },
+  { "id": "c", "name": "C", "icon": "/c.webp", "category": "other" },
+  { "id": "c#", "name": "C#", "icon": "/c_sharp.png", "category": "other" },
+  { "id": "php", "name": "PHP", "icon": "/php.png", "category": "other" },
+  { "id": "bash", "name": "Bash", "icon": "/bash.png", "category": "other" },
+  {
+    "id": "powershell",
+    "name": "PowerShell",
+    "icon": "/powershell.png",
+    "category": "other"
+  },
+  { "id": "linux", "name": "Linux", "icon": "/linux.png", "category": "other" }
+]

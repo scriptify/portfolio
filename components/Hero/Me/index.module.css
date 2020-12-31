@@ -1,0 +1,12 @@
+.me {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.me-img-container {
+  margin: 0 auto;
+  height: 70vh;
+  width: 200px;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "main_langs",
+    "name": "Main languages"
+  },
+  {
+    "id": "frontend",
+    "name": "Frontend"
+  },
+  {
+    "id": "backend",
+    "name": "Backend"
+  },
+  {
+    "id": "other",
+    "name": "Other"
+  }
+]
