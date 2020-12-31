@@ -34,7 +34,7 @@ export default function Home({
   return (
     <div>
       <Hero />
-      <div className="max-w-screen-md mx-auto mt-8 p-2 sm:p-0">
+      <div className="max-w-screen-md mx-auto mt-12 p-2 sm:p-0">
         <Skills skills={skills} categories={categories} />
       </div>
     </div>

@@ -19,6 +19,11 @@ const viewportHeight =
 const RoomElement: React.FC<RoomElementProps> = ({ imgSrc, x, y, z }) => {
   const { scrollY } = useViewportScroll();
   const [currScrollY, setScrollY] = useState<number>(0);
+
+  const [{ marginTop, animDuration }] = useState({
+    marginTop: Math.random() * 0.9 + 0.1 * (Math.random() > 0.5 ? 1 : -1),
+    animDuration: Math.random() * 1.5 + 0.5,
+  });
   const deviation = 15;
   useEffect(() => {
     scrollY.onChange((y) => {
@@ -33,12 +38,24 @@ const RoomElement: React.FC<RoomElementProps> = ({ imgSrc, x, y, z }) => {
     scrollY,
     [0, viewportHeight],
     [y - deviation, y + deviation]
-  ).get();
+  );
 
   return (
     <motion.div
       className={styles["room-element"]}
-      style={{ transform: `translate3d(${x}vw, ${currY}vh, ${z}vh)` }}
+      style={{ transform: `translate3d(${x}vw, ${currY.get()}vh, ${z}vh)` }}
+      transition={{
+        duration: 2,
+        repeat: Infinity,
+        repeatType: "reverse",
+        ease: "easeIn",
+        // type: "spring",
+        // bounce: 0.2,
+      }}
+      animate={{
+        marginTop: `${marginTop}em`,
+        // marginLeft: `${marginLeftAnim}em`,
+      }}
     >
       <Image src={imgSrc} layout="fill" objectFit="contain" priority />
     </motion.div>

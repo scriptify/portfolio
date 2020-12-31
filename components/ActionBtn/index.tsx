@@ -1,12 +1,21 @@
 import React from "react";
 import classnames from "classnames";
-import styles from "./index.module.css";
 
-interface Props {}
+interface Props {
+  mode?: "normal" | "highlight";
+}
 
-const ActionBtn: React.FC<Props> = ({ children }) => {
+const ActionBtn: React.FC<Props> = ({ children, mode = "normal" }) => {
   return (
-    <button className="block px-6 py-2 text-white mr-2 mt-2 bg-black shadow-lg border border-white">
+    <button
+      className={classnames(
+        "block text-center bg-white hover:text-white hover:bg-black mr-2 mt-2 shadow-lg rounded-lg transition-colors duration-150",
+        {
+          " w-28 py-2": mode === "normal",
+          "w-32 py-4": mode === "highlight",
+        }
+      )}
+    >
       {children}
     </button>
   );
