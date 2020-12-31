@@ -37,7 +37,7 @@ const Skills = ({ skills, categories }: Props) => {
               {skillsOfCategory.map((skill) => (
                 <div
                   className={classnames(
-                    "flex flex-col items-center justify-center h-24 w-24 mr-4 mt-6 relative shadow-md rounded-md bg-white",
+                    "flex flex-col items-center justify-center h-24 w-24 mr-4 mt-6 relative",
                     styles["technology-tile"]
                   )}
                   key={skill.id}

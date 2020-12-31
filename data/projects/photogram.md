@@ -2,7 +2,6 @@
 name: Photogram
 short_description: Web-application to create professional 3D pointclouds from videos or photos
 website: https://www.photogram.pro
-type: Startup
 icon: /photogram.webp
 technologies_used: typescript,react,apollo_graphql,serverless_framework,graphql,mongodb,gatsby.js,cordova,styled_components,aws,dynamodb,stripe
 ---

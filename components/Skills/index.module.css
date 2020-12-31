@@ -1,5 +1,5 @@
 .technology-tile {
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
   cursor: pointer;
   transition: filter 0.24s;
 }
