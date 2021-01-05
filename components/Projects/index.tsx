@@ -1,12 +1,13 @@
 import React from "react";
 import { Project } from "../../data/projects/types";
 import TitleDivider from "../TitleDivider";
+import ProjectTile from "./ProjectTile";
 
 interface Props {
   projects: Project[];
 }
 
-const Projects = ({}: Props) => {
+const Projects = ({ projects }: Props) => {
   return (
     <section className="mt-12">
       <TitleDivider size="w-1/12">
@@ -18,6 +19,11 @@ const Projects = ({}: Props) => {
           client agreements.
         </h3>
       </TitleDivider>
+      <div className="p-4 mt-4">
+        {projects.map((project, i) => (
+          <ProjectTile key={i} project={project} />
+        ))}
+      </div>
     </section>
   );
 };

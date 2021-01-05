@@ -1,9 +1,9 @@
 ---
 name: Photogram
-short_description: Web-application to create professional 3D pointclouds from videos or photos
+short_description: Create professional 3D pointclouds from videos or photos
 website: https://www.photogram.pro
 icon: /photogram.webp
-technologies_used: typescript,react,apollo_graphql,serverless_framework,graphql,mongodb,gatsby.js,cordova,styled_components,aws,dynamodb,stripe
+technologies_used: typescript,react,apollo_graphql,serverless_framework,graphql,mongodb,gatsby.js,cordova,styled_components,aws,dynamodb,stripe,java
 ---
 
 Photogram is a web application to create professional, measurable 3D pointclouds from videos or photos. Most of our clients come from the construction industry or public administration.

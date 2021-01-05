@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps<StaticDataType> = async () => {
         path.resolve(process.cwd(), "data/skills/technologies.json")
       )
       .toString()
-  );
+  ) as Skill[];
 
   const projectsFolder = path.resolve(process.cwd(), "data/projects");
   const projects = fs
@@ -40,10 +40,18 @@ export const getStaticProps: GetStaticProps<StaticDataType> = async () => {
     .map((markdownFile) => {
       const fileContent = fs.readFileSync(markdownFile).toString();
       const { content: markdownContent, data } = matter(fileContent);
-      return ({
+      const technologies_used = data.technologies_used.split(",");
+      let project = ({
         ...data,
+        technologies_used,
         markdownContent,
       } as unknown) as Project;
+
+      project.technologies = project.technologies_used.map((techId) =>
+        skills.find((s) => s.id === techId)
+      );
+
+      return project;
     });
 
   return { props: { categories, skills, projects } };
@@ -54,7 +62,6 @@ export default function Home({
   categories,
   projects,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  console.log({ projects });
   return (
     <div>
       <Hero />
