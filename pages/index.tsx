@@ -8,6 +8,8 @@ import { SkillCategory, Skill } from "../data/skills/types";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import { Project } from "../data/projects/types";
+import AboutMe from "../components/AboutMe";
+import HireMe from "../components/HireMe";
 
 interface StaticDataType {
   categories: SkillCategory[];
@@ -68,6 +70,8 @@ export default function Home({
       <div className="max-w-screen-md mx-auto mt-12 p-2 sm:p-0">
         <Skills skills={skills} categories={categories} />
         <Projects projects={projects} />
+        <AboutMe />
+        <HireMe />
       </div>
     </div>
   );
