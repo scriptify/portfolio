@@ -8,7 +8,9 @@ const AboutMe = ({}: Props) => {
   return (
     <section className="mt-12">
       <TitleDivider size="w-1/12">
-        <h2 className="text-4xl">About me</h2>
+        <h2 id="about_me" className="text-4xl">
+          About me
+        </h2>
       </TitleDivider>
       <div className="p-4 font-secondary text-lg">
         <div className="h-32 w-full relative">
@@ -19,17 +21,17 @@ const AboutMe = ({}: Props) => {
           {new Date().getFullYear() - 2016} years of professional experience.
         </p>
         <p className="mb-2">
-          My passion for web development was ignited way earlier though, selling
-          my first website with an age of 14. Little did I know where all of
-          that would lead!
+          My passion for web development was ignited way earlier, selling my
+          first website at an age of 14. Little did I know where all of that
+          would lead!
         </p>
         <p className="mb-2">
           Today, it's my greatest passion to realize complete web app projects
           end-to-end using modern web technologies.
         </p>
         <p className="mb-2">
-          I've already worked for many startups, SMBs and larger enterprises. If
-          you need someone to take ownership of a whole project or feature, I
+          I've already worked for many startups, SMBs, and larger enterprises.
+          If you need someone to take ownership of a whole project or feature, I
           might be the right person for the task.
         </p>
         <p>

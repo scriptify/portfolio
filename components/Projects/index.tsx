@@ -11,7 +11,9 @@ const Projects = ({ projects }: Props) => {
   return (
     <section className="mt-12">
       <TitleDivider size="w-1/12">
-        <h2 className="text-4xl">Projects</h2>
+        <h2 id="projects" className="text-4xl">
+          Projects
+        </h2>
       </TitleDivider>
       <TitleDivider size="w-1/12 invisible">
         <h3 className="text-lg text-gray-400 font-secondary">

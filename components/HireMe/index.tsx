@@ -7,7 +7,7 @@ const HireMe = ({}: Props) => {
   return (
     <section className="mt-12">
       <TitleDivider size="w-1/12">
-        <h2 id="hire-me" className="text-4xl">
+        <h2 id="hire_me" className="text-4xl">
           Hire me
         </h2>
       </TitleDivider>

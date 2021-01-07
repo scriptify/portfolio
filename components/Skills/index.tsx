@@ -14,7 +14,9 @@ const Skills = ({ skills, categories }: Props) => {
   return (
     <section>
       <TitleDivider size="w-1/12">
-        <h2 className="text-4xl">Skills</h2>
+        <h2 id="skills" className="text-4xl">
+          Skills
+        </h2>
       </TitleDivider>
       <TitleDivider size="w-1/12 invisible">
         <h3 className="text-lg text-gray-400 font-secondary">

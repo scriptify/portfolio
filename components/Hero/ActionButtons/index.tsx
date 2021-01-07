@@ -20,10 +20,10 @@ const ActionButtons = ({}: Props) => {
       // style={{ paddingBottom }}
       className="absolute bottom-8 md:bottom-1/4 w-full flex items-center justify-center flex-wrap"
     >
-      <ActionBtn>Skills</ActionBtn>
-      <ActionBtn>Projects</ActionBtn>
-      <ActionBtn>About Me</ActionBtn>
-      <ActionBtn>Hire Me</ActionBtn>
+      <ActionBtn target="#skills">Skills</ActionBtn>
+      <ActionBtn target="#projects">Projects</ActionBtn>
+      <ActionBtn target="#about_me">About Me</ActionBtn>
+      <ActionBtn target="#hire_me">Hire Me</ActionBtn>
     </motion.div>
   );
 };
