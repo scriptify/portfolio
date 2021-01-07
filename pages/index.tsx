@@ -1,4 +1,5 @@
 import { GetStaticProps, InferGetStaticPropsType } from "next";
+import Head from "next/head";
 import matter from "gray-matter";
 
 import path from "path";
@@ -68,6 +69,10 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
+      <Head>
+        <meta name="theme-color" content="#000000" />
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>
       <div>
         <Hero />
         <div className="max-w-screen-md mx-auto mt-12 p-2 sm:p-0">
