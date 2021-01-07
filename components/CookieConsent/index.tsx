@@ -23,7 +23,7 @@ const CookieConsentCmp = ({}: Props) => {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 w-full p-2">
+    <div className="fixed bottom-0 right-0 w-full p-2 max-w-screen-md">
       <div className="text-center sm:text-left bg-black p-2 text-white sm:flex justify-between font-secondary items-center rounded-lg">
         <p>
           I use cookies to gain a better understanding of how this site is used
