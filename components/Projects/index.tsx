@@ -15,8 +15,7 @@ const Projects = ({ projects }: Props) => {
       </TitleDivider>
       <TitleDivider size="w-1/12 invisible">
         <h3 className="text-lg text-gray-400 font-secondary">
-          A sample of the work I've done. Some projects can't be shown due to
-          client agreements.
+          A sample of the work I've done.
         </h3>
       </TitleDivider>
       <div className="p-4 mt-4">
