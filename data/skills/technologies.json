@@ -213,5 +213,11 @@
     "icon": "/bitbucket.png",
     "category": "testing_ci"
   },
+  {
+    "id": "gh_action",
+    "name": "GitHub Actions",
+    "icon": "/gh_actions.png",
+    "category": "testing_ci"
+  },
   { "id": "git", "name": "Git", "icon": "/git.png", "category": "testing_ci" }
 ]

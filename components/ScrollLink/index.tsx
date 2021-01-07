@@ -1,7 +1,10 @@
 import React from "react";
 import smoothscroll from "smoothscroll-polyfill";
-console.log("polyfill smoothscroll");
-smoothscroll.polyfill();
+
+if (typeof window !== "undefined") {
+  console.log("polyfill smoothscroll");
+  smoothscroll.polyfill();
+}
 
 interface Props {
   target: string;
