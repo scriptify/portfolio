@@ -11,9 +11,9 @@ const ActionBtn: React.FC<Props> = ({ children, mode = "normal", target }) => {
   return (
     <ScrollLink
       className={classnames(
-        "block text-center bg-white hover:text-white hover:bg-black mr-1 sm:mr-2 mt-1 sm:mt-2 shadow-lg rounded-lg transition-colors duration-150",
+        "block text-center bg-white hover:text-white hover:bg-black mr-2 mt-1 sm:mt-2 shadow-lg rounded-lg transition-colors duration-150",
         {
-          "w-28 py-2": mode === "normal",
+          "w-20 py-2 sm:w-28 sm:py-2": mode === "normal",
           "w-32 py-4": mode === "highlight",
         }
       )}

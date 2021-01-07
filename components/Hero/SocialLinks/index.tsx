@@ -44,7 +44,7 @@ const socialLinks = [
 
 const SocialLinks = ({}: Props) => {
   return (
-    <div className="absolute bottom-2 md:bottom-24 w-full flex items-center justify-center flex-wrap">
+    <div className="absolute bottom-16 md:bottom-24 w-full flex items-center justify-center flex-wrap">
       {socialLinks.map((social) => (
         <a
           href={social.href}

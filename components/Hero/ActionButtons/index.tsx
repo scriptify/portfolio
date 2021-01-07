@@ -18,7 +18,7 @@ const ActionButtons = ({}: Props) => {
   return (
     <motion.div
       // style={{ paddingBottom }}
-      className="absolute bottom-16 md:bottom-1/4 w-full flex items-center justify-center flex-wrap"
+      className="absolute bottom-32 md:bottom-1/4 w-full flex items-center justify-center flex-wrap"
     >
       <ActionBtn target="#skills">Skills</ActionBtn>
       <ActionBtn target="#projects">Projects</ActionBtn>
