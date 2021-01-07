@@ -11,6 +11,7 @@ const roles = [
   "Node.js aficionado",
   "JavaScript Fanatic",
   "GraphQL-ster",
+  "Serverless Advocate",
   "Browser APIs connoisseur",
   "Actually likes CSS",
 ];
