@@ -1,5 +1,6 @@
 import React from "react";
 import smoothscroll from "smoothscroll-polyfill";
+import { pageview } from "../../util/analytics";
 
 if (typeof window !== "undefined") {
   smoothscroll.polyfill();
@@ -13,6 +14,7 @@ interface Props {
 const ScrollLink: React.FC<Props> = ({ children, target, className }) => {
   function onClick(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     e.preventDefault();
+    pageview(window.location.pathname + target);
     const elem = document.querySelector(target);
     if (elem) {
       elem.scrollIntoView({ behavior: "smooth" });
