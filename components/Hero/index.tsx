@@ -3,6 +3,7 @@ import Me from "./Me";
 import Room3d from "./Room3d";
 import { useViewportScroll, useTransform, motion } from "framer-motion";
 import ActionButtons from "./ActionButtons";
+import SocialLinks from "./SocialLinks";
 
 interface Props {}
 
@@ -32,6 +33,7 @@ const Hero = ({}: Props) => {
       </section>
       <Me />
       <ActionButtons />
+      <SocialLinks />
     </header>
   );
 };
