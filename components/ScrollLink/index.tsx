@@ -2,7 +2,6 @@ import React from "react";
 import smoothscroll from "smoothscroll-polyfill";
 
 if (typeof window !== "undefined") {
-  console.log("polyfill smoothscroll");
   smoothscroll.polyfill();
 }
 

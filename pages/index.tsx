@@ -10,6 +10,7 @@ import Projects from "../components/Projects";
 import { Project } from "../data/projects/types";
 import AboutMe from "../components/AboutMe";
 import HireMe from "../components/HireMe";
+import Footer from "../components/Footer";
 
 interface StaticDataType {
   categories: SkillCategory[];
@@ -73,6 +74,7 @@ export default function Home({
         <AboutMe />
         <HireMe />
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,9 +1,11 @@
 import React from "react";
+
 import Me from "./Me";
 import Room3d from "./Room3d";
 import { useViewportScroll, useTransform, motion } from "framer-motion";
 import ActionButtons from "./ActionButtons";
 import SocialLinks from "./SocialLinks";
+import Roles from "./Roles";
 
 interface Props {}
 
@@ -28,7 +30,7 @@ const Hero = ({}: Props) => {
           Maximilian Torggler
         </motion.h1>
         <motion.h3 style={{ marginTop }} className="text 2xl md:text-3xl pt-4">
-          Fullstack Web Developer
+          <Roles />
         </motion.h3>
       </section>
       <Me />
