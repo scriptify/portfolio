@@ -12,6 +12,10 @@
     "name": "Backend"
   },
   {
+    "id": "testing_ci",
+    "name": "Testing/CI/CD"
+  },
+  {
     "id": "other",
     "name": "Other"
   }

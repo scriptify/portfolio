@@ -100,7 +100,7 @@
   {
     "id": "fastify",
     "name": "Fastify",
-    "icon": "/fastify.jpg",
+    "icon": "/fastify.png",
     "category": "backend"
   },
   {
@@ -176,5 +176,42 @@
     "icon": "/powershell.png",
     "category": "other"
   },
-  { "id": "linux", "name": "Linux", "icon": "/linux.png", "category": "other" }
+  { "id": "linux", "name": "Linux", "icon": "/linux.png", "category": "other" },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "icon": "/jest.png",
+    "category": "testing_ci"
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "icon": "/cypress.png",
+    "category": "testing_ci"
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "icon": "/selenium.png",
+    "category": "testing_ci"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "icon": "/vercel.png",
+    "category": "testing_ci"
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "icon": "/netlify.png",
+    "category": "testing_ci"
+  },
+  {
+    "id": "bitbucket",
+    "name": "Bitbucket",
+    "icon": "/bitbucket.png",
+    "category": "testing_ci"
+  },
+  { "id": "git", "name": "Git", "icon": "/git.png", "category": "testing_ci" }
 ]
