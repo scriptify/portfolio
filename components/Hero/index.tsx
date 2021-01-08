@@ -29,8 +29,11 @@ const Hero = ({}: Props) => {
         >
           Maximilian Torggler
         </motion.h1>
-        <motion.h3 style={{ marginTop }} className="text 2xl md:text-3xl pt-4">
-          <Roles />
+        <motion.h3
+          style={{ marginTop }}
+          className="text-2xl md:text-3xl pt-4 flex justify-center"
+        >
+          <div className="mr-2">I'm a</div> <Roles />
         </motion.h3>
       </section>
       <Me />

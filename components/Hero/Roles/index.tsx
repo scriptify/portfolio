@@ -7,13 +7,14 @@ interface Props {}
 const roles = [
   "Fullstack Web Developer",
   "React Addict",
-  "TypeScript enthusiast",
-  "Node.js aficionado",
+  "TypeScript Enthusiast",
+  "Node.js Aficionado",
   "JavaScript Fanatic",
   "GraphQL-ster",
   "Serverless Advocate",
-  "Browser APIs connoisseur",
-  "Actually likes CSS",
+  "Browser APIs Connoisseur",
+  "huge PWA fan",
+  "friend of the Open Web",
 ];
 
 const Roles = (props: Props) => {
