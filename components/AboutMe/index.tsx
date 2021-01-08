@@ -13,8 +13,13 @@ const AboutMe = ({}: Props) => {
         </h2>
       </TitleDivider>
       <div className="p-4 font-secondary text-lg">
-        <div className="h-32 w-full relative">
-          <Image src="/pb.jpg" layout="fill" objectFit="contain" />
+        <div className="h-36 w-full relative">
+          <Image
+            src="/me/pb.png"
+            layout="fill"
+            objectFit="contain"
+            className="rounded-full"
+          />
         </div>
         <p className="text-xl text-center p-4">
           I am a Fullstack Web Application Developer with{" "}

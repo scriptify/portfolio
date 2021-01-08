@@ -7,6 +7,12 @@
 
 .me-img-container {
   margin: 0 auto;
-  height: 67vh;
+  height: 60vh;
   width: 200px;
+}
+
+@screen sm {
+  .me-img-container {
+    height: 67vh;
+  }
 }
