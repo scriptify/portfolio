@@ -22,7 +22,7 @@ const AboutMe = ({}: Props) => {
           />
         </div>
         <p className="text-xl text-center p-4">
-          I am a Fullstack Web Application Developer with{" "}
+          I am a Full Stack Web Application Developer with{" "}
           {new Date().getFullYear() - 2016} years of professional experience.
         </p>
         <p className="mb-2">

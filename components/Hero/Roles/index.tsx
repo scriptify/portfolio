@@ -5,7 +5,8 @@ import "react-typist/dist/Typist.css";
 interface Props {}
 
 const roles = [
-  "Fullstack Web Developer",
+  "Full Stack Web Developer",
+  "Freelancer & Consultant",
   "React Addict",
   "TypeScript Enthusiast",
   "Node.js Aficionado",
