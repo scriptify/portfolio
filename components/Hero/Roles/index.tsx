@@ -9,6 +9,7 @@ const roles = [
   "Freelancer & Consultant",
   "React Addict",
   "TypeScript Enthusiast",
+  "Web Audio Whiz",
   "Node.js Aficionado",
   "JavaScript Fanatic",
   "GraphQL-ster",
