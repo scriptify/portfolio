@@ -13,6 +13,8 @@ import AboutMe from "../components/AboutMe";
 import HireMe from "../components/HireMe";
 import Footer from "../components/Footer";
 import CookieConsent from "../components/CookieConsent";
+import React from "react";
+import Layout from "../components/Layout";
 
 interface StaticDataType {
   categories: SkillCategory[];
@@ -72,32 +74,11 @@ export default function Home({
   projects,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <>
-      <Head>
-        <meta name="theme-color" content="#000000" />
-        <link rel="shortcut icon" href="/favicon.png" />
-        <title>{metaTitle}</title>
-        <meta property="og:title" content={metaTitle} />
-        <meta name="twitter:title" content={metaTitle} />
-        <meta name="description" content={metaDescription} />
-        <meta property="og:description" content={metaDescription} />
-        <meta name="twitter:description" content={metaDescription} />
-        <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:image" content={ogImageUrl} />
-        <meta name="image" content={ogImageUrl} />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
-      <div>
-        <Hero />
-        <div className="max-w-screen-md mx-auto mt-12 p-2 sm:p-0">
-          <Skills skills={skills} categories={categories} />
-          <Projects projects={projects} />
-          <AboutMe />
-          <HireMe />
-        </div>
-        <Footer />
-      </div>
-      <CookieConsent />
-    </>
+    <Layout>
+      <Skills skills={skills} categories={categories} />
+      <Projects projects={projects} />
+      <AboutMe />
+      <HireMe />
+    </Layout>
   );
 }

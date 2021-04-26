@@ -7,6 +7,7 @@ const Footer = ({}: Props) => {
     <footer className="bg-black sm:flex justify-between p-4 text-sm font-secondary text-gray-300">
       <p>
         © {new Date().getFullYear()} Maximilian Torggler. All Rights Reserved.
+        P. IVA 03115610218
       </p>
       <p className="mt-4 sm:mt-0 text-center">
         <span className="italic">
