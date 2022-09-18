@@ -32,19 +32,19 @@ const AboutMe = ({}: Props) => {
         </p>
         <p className="mb-2">
           Today, it's my greatest passion to realize complete web app projects
-          end-to-end using modern web technologies.
+          end-to-end using modern web technologies or just play around with the
+          latest and greatest in tech.
         </p>
         <p className="mb-2">
-          I've already worked for many startups, SMBs, and larger enterprises.
-          If you need someone to take ownership of a whole project or feature, I
-          might be the right person for the task.
+          Currently I'm not available for new projects, but feel free to reach
+          out. I always love to connect to new interesting people ♥
         </p>
         <p>
           <a
             className="underline text-blue-600"
-            href="mailto:inquiries@maximilian-torggler.dev"
+            href="https://www.linkedin.com/in/maximilian-torggler/"
           >
-            Let's have a chat!
+            Let's connect on LinkedIn!
           </a>
         </p>
       </div>

@@ -17,9 +17,9 @@ const Hero = ({}: Props) => {
   const marginTop = useTransform(scrollY, [0, viewportHeight], ["0em", "-2em"]);
 
   return (
-    <header className="h-screen w-full relative">
+    <header className="h-screen w-full relative bg-gray-900">
       <Room3d />
-      <section className="text-center absolute top-28 w-full">
+      <section className="text-center absolute top-28 w-full text-white">
         <motion.h2 style={{ marginTop }} className="text-xl md:text-2xl">
           Hello, my name is
         </motion.h2>

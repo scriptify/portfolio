@@ -20,7 +20,7 @@ const Skills = ({ skills, categories }: Props) => {
       </TitleDivider>
       <TitleDivider size="w-1/12 invisible">
         <h3 className="text-lg text-gray-400 font-secondary">
-          Technologies I use for my projects
+          A non-exhaustive list of technologies I use for my projects
         </h3>
       </TitleDivider>
       {categories.map((category) => {

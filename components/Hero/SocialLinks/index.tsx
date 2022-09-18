@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import {
   SiGithub as GitHubIcon,
-  SiDevDotTo as DevIcon,
+  SiDevdotto as DevIcon,
   SiTwitter as TwitterIcon,
+  SiLinkedin as LinkedInIcon,
 } from "react-icons/si";
 
 interface Props {}
@@ -13,6 +14,15 @@ const socialLinks = [
     href: "https://www.github.com/scriptify",
     icon: (
       <GitHubIcon
+        size="100%"
+        className="text-gray-500 hover:text-white transition-colors duration-100"
+      />
+    ),
+  },
+  {
+    href: "https://www.linkedin.com/in/maximilian-torggler/",
+    icon: (
+      <LinkedInIcon
         size="100%"
         className="text-gray-500 hover:text-white transition-colors duration-100"
       />

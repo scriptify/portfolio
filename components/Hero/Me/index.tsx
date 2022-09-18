@@ -4,7 +4,7 @@ import styles from "./index.module.css";
 
 interface Props {}
 
-const numImages = 8;
+const numImages = 5;
 
 const Me = ({}: Props) => {
   const [currImg, setImg] = useState<number>(0);

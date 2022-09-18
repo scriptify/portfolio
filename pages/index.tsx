@@ -48,11 +48,11 @@ export const getStaticProps: GetStaticProps<StaticDataType> = async () => {
       const fileContent = fs.readFileSync(markdownFile).toString();
       const { content: markdownContent, data } = matter(fileContent);
       const technologies_used = data.technologies_used.split(",");
-      let project = ({
+      let project = {
         ...data,
         technologies_used,
         markdownContent,
-      } as unknown) as Project;
+      } as unknown as Project;
 
       project.technologies = project.technologies_used.map((techId) =>
         skills.find((s) => s.id === techId)
@@ -75,10 +75,10 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <Layout>
+      <AboutMe />
       <Skills skills={skills} categories={categories} />
       <Projects projects={projects} />
-      <AboutMe />
-      <HireMe />
+      {/* <HireMe /> */}
     </Layout>
   );
 }
